@@ -1,3 +1,4 @@
+// from here: http://litmusbox.blogspot.com/2013/07/real-time-communication-with-socketio.html?m=1
 var app = require('http').createServer(handler)
   , io = require('socket.io').listen(app)
   , fs = require('fs');
